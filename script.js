@@ -179,9 +179,9 @@ const animate = () => {
     //ropes.forEach((x) => {x.update()});
     ropes.forEach((x, idx) => {x.update(idx)});
     if(stat){
-    u.writeT("HALO SAYANG NINI",0.5*W,0.85*H);
-u.writeT("NINI ADA LOVE UNTUK BUBYYY",0.5*W,0.9*H);
-    u.writeT("INI HADIAH UNTUK KAMU",0.5*W,0.95*H);}
+    u.writeT("TKS",0.5*W,0.85*H);
+u.writeT("A'23",0.5*W,0.9*H);
+    u.writeT("",0.5*W,0.95*H);}
     requestAnimationFrame(animate);
 };
 
